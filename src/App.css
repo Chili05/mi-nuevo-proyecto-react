@@ -1,0 +1,30 @@
+.App {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+button {
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .App {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,83 @@
+/* Estilos generales para la página de "Sobre Nosotros" */
+.about-page {
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-page h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #7a4dff;  
+  }
+  
+  .about-intro, .about-malva-edition, .about-sustainability {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .about-text {
+    width: 45%;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #444;
+  }
+  
+  .about-text p {
+    margin-bottom: 15px;
+  }
+  
+  .about-malva-edition, .about-sustainability {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .about-malva-edition h2, .about-sustainability h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #7a4dff; 
+  }
+  
+  .about-image {
+    width: 50%;
+  }
+  
+  .about-image-small {
+    width: 50%; 
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+  }
+  
+  /* Mejorar la apariencia en pantallas más pequeñas */
+  @media (max-width: 768px) {
+    .about-intro, .about-malva-edition, .about-sustainability {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .about-text {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .about-image {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .about-image-small {
+      width: 50%;
+      margin: 0 auto;
+    }
+  }
+  

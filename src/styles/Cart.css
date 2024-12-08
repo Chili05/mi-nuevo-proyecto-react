@@ -1,0 +1,172 @@
+.cart-page {
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .cart-title {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .cart-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .cart-item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    text-align: center;
+  }
+  
+  .cart-item-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .cart-item-details {
+    flex-grow: 1;
+  }
+  
+  .compare-price {
+    text-decoration: line-through;
+    color: #a0a0a0;
+  }
+  
+  .cart-item-actions {
+    margin-top: 10px;
+  }
+  
+  .remove-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 0.9em;
+    transition: background-color 0.3s;
+  }
+  
+  .remove-btn:hover {
+    background-color: #ff2b2b;
+  }
+  
+  .cart-summary {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 400px;  
+    margin: 20px auto; 
+  }
+  
+  .coupon {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px; 
+  }
+  
+  .coupon input {
+    flex: 1;
+    padding: 8px;
+    font-size: 0.9em; 
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .coupon button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 0.9em;
+    transition: background-color 0.3s;
+  }
+  
+  .coupon button:hover {
+    background-color: #0056b3;
+  }
+  
+  .total {
+    font-weight: bold;
+    font-size: 1em; 
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .clear-cart-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 0.9em;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+  }
+  
+  .clear-cart-btn:hover {
+    background-color: #ff2b2b;
+  }
+  
+  .pay-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 1em;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+  }
+  
+  .pay-btn:hover {
+    background-color: #218838;
+  }
+  
+  .faq-sections {
+    margin-top: 40px;
+  }
+  
+  .faq-sections details {
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+  .faq-sections summary {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .faq-sections p {
+    margin-left: 10px;
+    color: #555;
+  }
+  

@@ -1,0 +1,33 @@
+.product-item {
+    width: 200px; 
+    margin: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+  }
+  
+  .product-item img {
+    width: 100%;
+    height: auto;
+    max-height: 200px; 
+    object-fit: contain;
+  }
+  
+  .product-item h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .product-item .price {
+    font-size: 1rem;
+    color: #28a745;
+    font-weight: bold;
+  }
+  
+  .product-item .compare-price {
+    font-size: 0.9rem;
+    text-decoration: line-through;
+    color: #777;
+  }
+  
